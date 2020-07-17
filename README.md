@@ -1,6 +1,8 @@
 # C-Sharp-WPF-NetTestApp
 Frist test with a GUI an some networking in C#
 
+![Screenshot from 1st GUI Test](/screenshot-gui-test-wpf-netcore.jpg)
+
 
 # Done (06/2020)
  - Ping works
