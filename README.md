@@ -9,7 +9,7 @@ Frist test with a GUI an some networking in C#
  - NIC details shows up
 
 # Buggy
-Display of pings results as they come in/happens
+ - Display of ping results as they come in
 
 # ToDo
  - Sort NICs by type
