@@ -29,6 +29,15 @@ namespace haenno_net_WpfApp1
             InitializeComponent();
         }
 
+        private void buttonHTMLDo_Click(object sender, RoutedEventArgs e)
+        {
+            System.Net.WebClient wc = new System.Net.WebClient();
+            byte[] raw = wc.DownloadData(textBoxHTMLaddr.Text);
+            string webData = System.Text.Encoding.UTF8.GetString(raw);
+            textBoxHTMLcode.Text = webData;
+        }
+
+
 
         private void buttonPingDo_Click(object sender, RoutedEventArgs e)
         {

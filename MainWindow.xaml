@@ -34,6 +34,24 @@
                     <Button x:Name="buttonNicDatenAnzeigen" Content="NIC Daten anzeigen... " HorizontalAlignment="Left" Height="23" Margin="30,15,0,0" VerticalAlignment="Top" Width="176" Click="button_Click" Grid.Column="2"/>
                 </Grid>
             </TabItem>
+            <TabItem Header="Webseiten-Quelltext">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox 
+                        x:Name                  ="textBoxHTMLaddr" 
+                        HorizontalAlignment     ="Left" 
+                        Margin                  ="84,14,0,0" 
+                        Text                    ="https://www.heise.de" 
+                        TextWrapping            ="Wrap" 
+                        VerticalAlignment       ="Top" 
+                        Width                   ="400"
+                    />
+                    <Button x:Name="buttonHTMLload" Content="Load" HorizontalAlignment="Left" 
+                            Margin="596,14,0,0" VerticalAlignment="Top" Click="buttonHTMLDo_Click" Width="63"/>
+                    <Label x:Name="HTMLsiteAdress" Content="Web-Seite:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBoxHTMLcode" HorizontalAlignment="Left" Height="285" Margin="30,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" Grid.Column="2"/>
+                </Grid>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>
